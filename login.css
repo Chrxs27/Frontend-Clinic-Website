@@ -116,9 +116,9 @@ body {
     padding-top: 9px;
     padding-bottom: 9px;
 }
-/* Basic button styling */
+
 .basic-button {
-    background-color: #4CAF50; /* Green */
+    background-color: #4CAF50;
     border: none;
     color: white;
     padding-top: 12px;
