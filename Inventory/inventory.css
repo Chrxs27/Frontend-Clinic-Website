@@ -1,0 +1,311 @@
+body {
+    margin-top: 90px;   
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+}
+
+/* Background Image */
+.background-image-blur {
+    position: fixed;
+    top: 0;
+    left: 0;
+    right: 0;
+    bottom: 0;
+    background-image: url('dhvsu-clinic.jpg');
+    background-size: cover;
+    background-position: center;
+    filter: blur(5px);
+    z-index: -1;
+}
+
+/* Header */
+.header {
+    background-color: rgb(145, 65, 60);
+    color: white;
+    position: fixed;
+    top: 0;
+    right: 0;
+    left: 0;
+    height: 70px;
+    
+    display: flex;
+    flex-direction: row;
+    align-items: center;
+    justify-content: space-between;
+    
+}
+
+.left-section {
+    display: flex;
+    flex-direction: row;
+    align-items: center;
+}
+.dhvsu {
+    margin-left: 10px;
+    width: 50px;
+}
+.dhvsu-logo-header {
+    width: 50px;
+    height: 50px;
+}
+.hospital-logo {
+    width: 50px;
+}
+/* Title Website Header */
+.title {
+    font-family: Roboto, Arial;
+    font-size: 21px;
+}
+
+/* Right Section*/
+.right-section {
+    display: flex;
+    flex-direction: row;
+    align-items: center;
+    justify-content: space-between;
+}
+/* Student Search */
+.inventory-label-container {
+    margin-right: 100px;
+}
+.label-inventory {
+    font-family: Roboto, Arial;
+    font-size: 20px;
+}
+
+/* SideBar*/
+.sidebar {
+    background-color: rgb(145, 65, 60);
+    position: fixed;
+    top: 70px;
+    right: 0;
+    bottom: 0;
+    width: 70px;
+
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: space-between;
+}
+
+/* Upper Container Sidebar*/
+.upper-container {
+    height: 300px;
+    width: 70px;
+
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+}
+/* List Part */
+.sleeping-line-container {
+    width: 70px;
+
+    display: flex;
+    align-items: center;
+    justify-content: center;
+}
+.list-part {
+    padding-top: 8px;
+    padding-bottom: 8px;
+    height: 40px;
+}
+.sleeping-line-container:hover {
+    background-color: white;
+    transition: 0.15s;
+}
+
+/* Button Container Sidebar*/
+.buttons-container {
+    height: 210px;
+    width: 70px;
+
+    display: flex;
+    flex-direction: column;
+    justify-content: space-between;
+    align-items: center;
+}
+
+/* Button Container */
+.home-btn-container,
+.patient-data-container,
+.logbook-container,
+.data-analytics-container {
+    width: 60px;
+
+    padding-top: 8px;
+    padding-bottom: 8px;
+
+    display: flex;
+    justify-content: center;
+}
+
+/* Buttons */
+.home-btn,
+.patient-data-btn,
+.logbook-btn, 
+.data-analytics-btn {
+    font-size: 12px;
+    font-family: Roboto, Arial;
+
+    padding-top: 3px;
+    padding-bottom: 3px;
+    cursor: pointer;
+}
+.home-btn {
+    width: 60px;
+}
+
+.profile-container {
+    height: 70px;
+    width: 70px;
+
+    display: flex;
+    align-items: center;
+    justify-content: center;
+}
+
+.profile-picture {
+    height: 50px;
+    border-radius: 25px;
+}
+
+/* Label Contents */
+.contents-container {
+    background-color: rgb(145, 65, 60);
+    width: 1000px;
+    height: 40px;
+
+    display: flex;
+    flex-direction: row;
+    align-items: center;
+    justify-content: space-between;
+}
+
+.antibiotics-part, 
+.painkiller-part,
+.paracetamol-part,
+.antidiarrheals-part,
+.antacids-part {
+    background-color: white;
+    width: 180px;
+    height: 25px;
+
+    font-family: Roboto, Arial;
+    font-size: 16px;
+    border: none;
+
+    cursor: pointer;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+}
+
+.antibiotics-part {
+    margin-left: 15px;
+}
+.antacids-part {
+    margin-right: 15px; 
+}
+
+/* Medical Inputs Container*/
+.medical-container {
+    background-color: rgb(145, 65, 60);
+    height: 570px;
+    width: 1260px;
+    margin-right: 70px;
+    margin-top: 20px;
+    
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+}
+
+/* Print Inputs */
+.print-contents {
+    width: 1260px;
+    display: flex;
+    justify-content: right;
+}
+.print-img-container {
+    width: 200px;
+    height: 40px;
+
+    display: flex;
+    flex-direction: row;
+    align-items: center;
+    justify-content: space-between;
+}
+.print-btn-picture,
+.search-btn-picture, 
+.refresh-btn-picture,
+.filter-btn-picture {
+    height: 25px;
+    cursor: pointer;
+    border: none;
+}
+/* Print Buttons in Medical Container */
+.print-btn, 
+.search-btn,
+.refresh-btn,
+.filter-btn{
+    background-color: white;
+    background: none;
+    border: none;
+
+    padding-top: 4px;
+    padding-bottom: 4px;
+}
+.print-btn {
+    margin-left: 10px;
+}
+.filter-btn {
+    margin-right: 10px;
+}
+
+/* */
+.clinic-container-all {
+    background-color: lightblue;
+    width: 1200px;
+    
+    display: flex;
+    flex-direction: row;
+}
+/* Column Containers */
+.clinic-contents-column {
+    background-color: white;
+    width: 120px;
+    height: 510px;
+}
+.clinic-container {
+    height: 100px;
+    width: 118px;
+    border-style: solid;
+    border-width: 1px;
+    border-color: gray;
+
+    display: flex;
+    justify-content: center;
+    
+}
+.date-label {
+    padding-top: 20px;
+}
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
